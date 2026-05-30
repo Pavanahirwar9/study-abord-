@@ -1,8 +1,23 @@
-# Help Study Abroad — Admin Dashboard
+study abord
+### Installation & Run Commands
 
-A modern, responsive, production-quality admin dashboard built as a frontend technical assessment.
 
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+setup
+
+npm run build    # Build for production
+npm run start    # Start production server
+npm run lint     # Run ESLint validation
+```
 ## Screenshots
+
+<img width="1519" height="768" alt="image" src="https://github.com/user-attachments/assets/54c859a0-e827-44a3-967d-d075ec76413b" />
+<img width="1885" height="757" alt="image" src="https://github.com/user-attachments/assets/09d9f421-db53-421c-9854-f767d62fafdf" />
+
+<img width="1913" height="813" alt="image" src="https://github.com/user-attachments/assets/45f31c4d-44a6-4bb3-b738-ce5c1318effc" />
+<img width="1896" height="794" alt="image" src="https://github.com/user-attachments/assets/966f833d-bb06-4fda-bb92-cbccf8e74307" />
+<img width="1915" height="726" alt="image" src="https://github.com/user-attachments/assets/52032b63-d00d-4c02-a1d6-8840a8b5bed2" />
+
 
 > Run the app locally (`npm run dev`) to see the UI in action.
 >
@@ -53,49 +68,7 @@ A modern, responsive, production-quality admin dashboard built as a frontend tec
 - Node.js 18+
 - npm 9+
 
-### Installation & Run Commands
 
-```bash
-# 1. Clone or unzip the project
-cd help-study-abroad
-
-# 2. Install dependencies
-npm install
-
-# 3. Set up environment variables
-cp .env.local.example .env.local
-# Edit .env.local if needed (defaults work for development)
-
-# 4. Start development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-Additional commands:
-```bash
-npm run build    # Build for production
-npm run start    # Start production server
-npm run lint     # Run ESLint validation
-```
-
----
-
-## Environment Variable Instructions
-
-Create a `.env.local` file in the project root:
-
-```env
-NEXTAUTH_SECRET=help-study-abroad-secret-key-2024
-NEXTAUTH_URL=http://localhost:3000
-```
-
-| Variable | Description | Default |
-|---|---|---|
-| `NEXTAUTH_SECRET` | JWT signing secret | `help-study-abroad-secret-key-2024` |
-| `NEXTAUTH_URL` | App base URL for NextAuth | `http://localhost:3000` |
-
----
 
 ## Demo Credentials
 
